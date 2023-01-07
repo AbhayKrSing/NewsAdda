@@ -1,265 +1,265 @@
 {
     "status": "ok",
-    "totalResults": 36,
+    "totalResults": 37,
     "articles": [
         {
             "source": {
-                "id": "financial-times",
-                "name": "Financial Times"
+                "id": null,
+                "name": "NDTV News"
             },
-            "author": "Lauren Fedor",
-            "title": "Kevin McCarthy on course to lose first round Speaker vote - Financial Times",
-            "description": "Republican becomes first majority party leader in a century to fall short in early ballot",
-            "url": "https://www.ft.com/content/16fdd88e-f135-4c96-8397-12bc6dff61ab",
-            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9a2b42a0-f77f-403c-b3af-3312195eab6c.jpg?source=next-opengraph&fit=scale-down&width=900",
-            "publishedAt": "2023-01-03T18:24:04Z",
-            "content": "Kevin McCarthy was in the fight of his political life on Tuesday after he lost an initial vote to be elected Speaker of the House of Representatives, becoming the first majority party leader in a cen… [+4122 chars]"
+            "author": "NDTV Sports Desk",
+            "title": "India vs Sri Lanka: Suryakumar Yadav Hits Blazing 45-Ball Century, His 3rd In T20Is - NDTV Sports",
+            "description": "Suryakumar Yadav  raced to his third T20I ton in just 45 balls as India cruised against Sri Lanka",
+            "url": "https://sports.ndtv.com/cricket/india-vs-sri-lanka-suryakumar-yadav-hits-blazing-ball-century-his-3rd-in-t20is-3672461",
+            "urlToImage": "https://c.ndtvimg.com/2023-01/5p54m71o_sky-afp_625x300_07_January_23.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675",
+            "publishedAt": "2023-01-07T17:26:00Z",
+            "content": "If there is Suryakumar Yadav at the crease, nine out of 10 times fans can expect a healthy dose of entertainment. The same was repeated in the third T20I against Sri Lanka in Rajkot on Saturday. Comi… [+4319 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CBS Sports"
-            },
-            "author": "",
-            "title": "Bills' Damar Hamlin suffers cardiac arrest on field vs. Bengals: Family releases statement; safety 'fighting' - CBS Sports",
-            "description": "Hamlin collapsed after a hit during the first quarter of 'Monday Night Football'",
-            "url": "https://www.cbssports.com/nfl/news/bills-damar-hamlin-suffers-cardiac-arrest-on-field-vs-bengals-family-releases-statement-safety-fighting/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/01/03/db51f391-d96e-4a01-adcd-bd99e94835d6/thumbnail/1200x675/dbdaec313b010b974d009340bab48455/mnf-ambulance-g.jpg",
-            "publishedAt": "2023-01-03T17:47:00Z",
-            "content": "A scary and emotional scene unfolded early during Monday night's game between the Bills and Bengals. With 5:58 remaining in the first quarter, Bills safety Damar Hamlin collapsed after rising to his … [+4943 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "Mary Kekatos, Emily Shapiro, Aaron Katersky, Josh Margolin",
-            "title": "Idaho murders: Suspect Bryan Kohberger set to appear in court as he faces charges - ABC News",
-            "description": "Bryan Kohberger, 28, was arrested in Pennsylvania on Friday.",
-            "url": "https://abcnews.go.com/US/idaho-murders-suspect-bryan-kohberger-set-court-faces/story?id=96015943",
-            "urlToImage": "https://s.abcnews.com/images/US/bryan-kohberger-ap-jt-221230_1672420974554_hpMain_16x9_992.jpg",
-            "publishedAt": "2023-01-03T17:35:33Z",
-            "content": "The suspect accused of killing four University of Idaho students is set to appear in court in Monroe County, Pennsylvania, on Tuesday afternoon as he faces first-degree murder and burglary charges.\r\n… [+2832 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Videocardz.com"
+                "name": "NDTV News"
             },
             "author": null,
-            "title": "NVIDIA announces GeForce RTX 40 Laptop GPU series, RTX 4090 with 9728 CUDAs and 16GB GDDR6 memory - VideoCardz.com",
-            "description": "NVIDIA kicks off CES 2023 with RTX 40 Laptop GPU launch NVIDIA is officially announcing its RTX 40 series for laptops.  The company confirmed today it will introduce a new flagship RTX 40 mobile series for enthusiast. NVIDIA RTX 40 series based on Ada Lovelac…",
-            "url": "https://videocardz.com/newz/nvidia-announces-geforce-rtx-40-laptop-gpu-series-rtx-4090-with-9728-cudas-and-16gb-gddr6-memory",
-            "urlToImage": "https://cdn.videocardz.com/1/2023/01/GEFORCE-40-MOBILE.jpg",
-            "publishedAt": "2023-01-03T16:44:00Z",
-            "content": "NVIDIA is officially announcing its RTX 40 series for laptops. \r\nThe company confirmed today it will introduce a new flagship RTX 40 mobile series for enthusiast.\r\nNVIDIA RTX 40 series based on Ada L… [+2866 chars]"
+            "title": "NASA's Solar Dynamics Observatory Captures 133-Day Time Lapse Of Sun - NDTV",
+            "description": "This video shows solar activity as it was observed by NASA's Solar Dynamics Observatory from August 12 to December 22, 2022.",
+            "url": "https://www.ndtv.com/feature/nasas-solar-dynamics-observatory-captures-133-day-time-lapse-of-sun-3672758",
+            "urlToImage": "https://c.ndtvimg.com/2023-01/f9qr8mko_sdo-captures-an-image-of-the-sun-every-075-seconds_625x300_07_January_23.jpg",
+            "publishedAt": "2023-01-07T16:33:39Z",
+            "content": "SDO captures an image of the Sun every 0.75 seconds.\r\nNASA's Solar Dynamics Observatory (SDO), which has been the space agency's unblinking eye on the Sun, has captured the solar activity from August… [+1489 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNBC"
+                "name": "Zee Business"
             },
-            "author": "Leslie Josephs",
-            "title": "Southwest Airlines schedule stabilizes after holiday meltdown but costs are still piling up - CNBC",
-            "description": "Southwest said it is now focused on improving its technology that contributed to thousands of flight cancellations over the year-end holidays.",
-            "url": "https://www.cnbc.com/2023/01/03/southwest-cancellations-stabilize.html",
-            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107171959-1672261852333-gettyimages-1245856580-Southwest.jpeg?v=1672762937&w=1920&h=1080",
-            "publishedAt": "2023-01-03T16:22:17Z",
-            "content": "Southwest Airlines stabilized its schedule over the weekend after about 16,000 cancellations, but its systemwide holiday meltdown could cost it hundreds of millions of dollars.\r\nSouthwest had cancele… [+2531 chars]"
+            "author": "ZeeBiz WebTeam",
+            "title": "Samsung Galaxy S23 Ultra launch date revealed: Check details - Zee Business",
+            "description": "Samsung Galaxy S23 Ultra Release Date in India, Samsung Galaxy S23 Ultra Price in India: There have been several rumours and leaks around this upcoming smartphone but now it has apparently a confirmed date of debut.",
+            "url": "https://www.zeebiz.com/technology/mobiles/news-samsung-galaxy-s23-ultra-release-date-in-india-galaxy-s23-series-price-specifications-camera-details-216153",
+            "urlToImage": "https://cdn.zeebiz.com/sites/default/files/2023/01/07/220162-samsungfile.jpg",
+            "publishedAt": "2023-01-07T16:01:51Z",
+            "content": "Samsung Galaxy S23 Ultra Release Date in India, Samsung Galaxy S23 Ultra Price in India: There were rumours that the Samsung Galaxy S23 line of smartphones could be launched in early 2023. The lineup… [+1434 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNET"
+                "name": "Moneycontrol"
             },
-            "author": "David Katzmaier",
-            "title": "CES 2023: LG OLED TVs Tease a Boost in Image Brightness - CNET",
-            "description": "Ahead of its showcase, the brand announced a fresh lineup of Z3, G3 and C3 OLED models.",
-            "url": "https://www.cnet.com/tech/home-entertainment/ces-2023-lg-oled-tvs-tease-boost-image-brightness/",
-            "urlToImage": "https://www.cnet.com/a/img/resize/b13dc9bacc29fd3f4704c4fc92d689564483c4bf/hub/2022/12/31/dccb36c9-9142-426e-b6ae-2e73d5990a99/oled-evo-01.jpg?auto=webp&fit=crop&height=630&width=1200",
-            "publishedAt": "2023-01-03T16:17:03Z",
-            "content": "CES 2023 has officially kicked off, but LG previewed a few details about its new OLED televisions in advance of its presentation this week. The models will include the C3, the successor to the best h… [+2723 chars]"
+            "author": "PTI",
+            "title": "Jaiprakash Associates defaults on Rs 4,059 crore loans - Moneycontrol",
+            "description": "The loans pertained to various banks and the nature of obligation is fund based working capital, non fund based working capital, term loans and FCCB (foreign currency convertible bonds).",
+            "url": "https://www.moneycontrol.com/news/companies-2/jaiprakash-associates-defaults-on-rs-4059-crore-loans-9827021.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/01/jaypee1.jpg",
+            "publishedAt": "2023-01-07T15:38:19Z",
+            "content": "Jaypee Group's flagship firm Jaiprakash Associates has defaulted on loans of Rs 4,059 crore, comprising both the principal and interest amount.\r\nIn a regulatory filing, Jaiprakash Associates Ltd (JAL… [+1704 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNET"
-            },
-            "author": "Eric Mack",
-            "title": "How to See the 2023 Quadrantids Meteor Shower Peak Tonight in a Flurry of Fire - CNET",
-            "description": "This shooting star show will be the last big one for a few months.",
-            "url": "https://www.cnet.com/science/space/how-to-see-the-2023-quadrantids-meteor-shower-peak-tonight-in-a-flurry-of-fire/",
-            "urlToImage": "https://www.cnet.com/a/img/resize/1224f14e5b081ea58e27a42f639163e82a25dc2e/hub/2020/01/06/86434ff3-d389-4d00-aaf7-f37a417c868d/quadrantidkoch2020-cropped.jpg?auto=webp&fit=crop&height=630&width=1200",
-            "publishedAt": "2023-01-03T16:13:12Z",
-            "content": "By Wednesday, your last best chance to see any shooting stars or fireballs for a while will be over, so plan accordingly. \r\nThe first few months of the year have a relative dearth of meteor showers, … [+3548 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "YouTube"
+                "name": "NDTV News"
             },
             "author": null,
-            "title": "More Countries Impose COVID Restrictions on Travelers From China - Voice of America",
-            "description": "The surge in COVID cases in China and a lack of information on infections from China have fueled international concerns and prompted many countries to impose...",
-            "url": "https://www.youtube.com/watch?v=TIxW9XLc28A",
-            "urlToImage": "https://i.ytimg.com/vi/TIxW9XLc28A/maxresdefault.jpg",
-            "publishedAt": "2023-01-03T16:12:14Z",
-            "content": null
+            "title": "On Camera, Cylinder Blast In Delhi's Prime Wholesale Market - NDTV",
+            "description": "A CCTV camera clip showed smoke rising and people running around near a parking lot in Delhi's Sadar Bazaar",
+            "url": "https://www.ndtv.com/india-news/on-camera-cylinder-blast-in-delhis-prime-wholesale-market-3672511",
+            "urlToImage": "https://c.ndtvimg.com/2023-01/tf4iqrl8_cctv-delhi-blast_625x300_07_January_23.jpg",
+            "publishedAt": "2023-01-07T15:15:00Z",
+            "content": "Blast took place near New Parking, Sadar Bazaar, adjacent to Khursheed Market, in Delhi.\r\nNew Delhi: A porter was injured in blast suspected to have been caused by a cooking gas cylinder in Delhi's b… [+425 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Yahoo Entertainment"
-            },
-            "author": "Brian Sozzi",
-            "title": "Tesla stock tanks on delivery whiff, JPMorgan note - Yahoo Finance",
-            "description": "Tesla stock is picking right up where it left off in 2022: Lacking juice.",
-            "url": "https://finance.yahoo.com/news/tesla-stock-tanks-on-delivery-whiff-jp-morgan-note-160657347.html",
-            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Skh5WR3iUdBws3NEYs61fg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-12/1a34f370-7ceb-11ed-9fed-5deb880c972e",
-            "publishedAt": "2023-01-03T16:06:57Z",
-            "content": "Tesla stock is picking right up where it left off in 2022: Lacking juice.\r\nShares of the EV maker fell more than 14% on Tuesday to their lowest level since August 2020, with investors reacting to a l… [+2217 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "YouTube"
+                "name": "123telugu.com"
             },
             "author": null,
-            "title": "EVERY SINGLE POINT From Donovan Mitchell's 71 Point Performance - NBA",
-            "description": "Donovan Mitchell recorded a career-high and Cleveland Cavaliers franchise record 71 points (55 points in 2nd half + overtime), along with 8 rebounds, and 11 ...",
-            "url": "https://www.youtube.com/watch?v=g4PN3J6ObcY",
-            "urlToImage": "https://i.ytimg.com/vi/g4PN3J6ObcY/maxresdefault.jpg",
-            "publishedAt": "2023-01-03T16:00:30Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Ben Church, Camilo Rocha",
-            "title": "Funeral procession for Pelé begins after thousands, including Brazil's president Lula da Silva, visited 24-hour wake - CNN",
-            "description": "A funeral procession which will take legendary footballer Pelé to his final resting place has begun Tuesday.",
-            "url": "https://www.cnn.com/2023/01/03/football/pele-wake-tuesday-santos-lula-spt-intl/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230102080830-03-pele-wake-0102.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "2023-01-03T15:48:00Z",
-            "content": "A funeral procession which will take soccer great Pelé to his final resting place has begun Tuesday. \r\nThe procession started at the Urbano Caldeira Stadium, home of Pelés former club Santos, and his… [+2385 chars]"
+            "title": "Director Bobby opens up about balancing Chiranjeevi and Ravi Teja - 123telugu",
+            "description": "Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets",
+            "url": "https://www.123telugu.com/mnews/director-bobby-opens-up-about-balancing-chiranjeevi-and-ravi-teja.html",
+            "urlToImage": "https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif",
+            "publishedAt": "2023-01-07T14:37:00Z",
+            "content": "Director Bobby delivered good commercial hits like Power, Jai Lava Kusa, and Venky Mama. He has now got the chance to direct his favorite actor, Megastar Chiranjeevi, with Waltair Veerayya. From the … [+804 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Page Six"
-            },
-            "author": "Francesca Bacardi",
-            "title": "TLC's Chilli confirms she's dating Matthew Lawrence after his divorce - Page Six",
-            "description": "The “Creep” singer and the “Boy Meets World” alum began as longtime friends, but their relationship turned romantic just before Thanksgiving.",
-            "url": "https://pagesix.com/2023/01/03/tlcs-chilli-confirms-shes-dating-matthew-lawrence/",
-            "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2023/01/matthew-lawrence-chilli-tlc-92.jpg?quality=75&strip=all&w=1200",
-            "publishedAt": "2023-01-03T15:16:00Z",
-            "content": "She found someone who isn’t a “creep.”\r\nTLC member Chilli confirmed Tuesday that she is dating Matthew Lawrence following his divorce from Cheryl Burke.\r\nHer rep told TMZ that the longtime friends’ r… [+1575 chars]"
-        },
-        {
-            "source": {
-                "id": "fox-news",
-                "name": "Fox News"
-            },
-            "author": "Timothy Nerozzi",
-            "title": "Pope Benedict's last words, according to his bedside nurse - Fox News",
-            "description": "Pope Benedict XVI's last words, spoken in Italian on his death bed on Dec. 31, were recorded by his attending nurse, according to Vatican reports.",
-            "url": "https://www.foxnews.com/world/pope-benedict-last-words-according-bedside-nurse",
-            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/08/AP20216301322522.jpg",
-            "publishedAt": "2023-01-03T14:56:25Z",
-            "content": "Pope Benedict XVI, who passed away on Saturday at the age of 95, remained lucid until close to the end of his life, Vatican sources have said.\r\nThe deceased pope's last words were recorded by the nur… [+3012 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "YouTube"
+                "name": "NDTV News"
             },
             "author": null,
-            "title": "California FLoods Live: No 'Happy' New Year As Citizens Brace For More Devastating Floods - TIMES NOW",
-            "description": "Parts of California were submerged in water after a Pacific storm hit the US state and may have claimed at least 3 lives#California #Cali #CaliFloods #Americ...",
-            "url": "https://www.youtube.com/watch?v=hcFiMahAO9Y",
-            "urlToImage": "https://i.ytimg.com/vi/hcFiMahAO9Y/maxresdefault_live.jpg",
-            "publishedAt": "2023-01-03T14:52:05Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Samantha Murphy Kelly",
-            "title": "FTX founder Sam Bankman-Fried to appear in court Tuesday - CNN",
-            "description": "Sam Bankman-Fried, the disgraced founder of bankrupt crypto exchange FTX, is set to appear in person in a Manhattan federal court on Tuesday to face charges that include cheating investors out of billions of dollars.",
-            "url": "https://www.cnn.com/2023/01/03/business/sam-bankman-fried-plea/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230102144153-sam-bankman-fried-file-1222.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "2023-01-03T14:46:00Z",
-            "content": "Sam Bankman-Fried, the disgraced founder of bankrupt crypto exchange FTX, is set to appear in person in a Manhattan federal court on Tuesdayto face charges that include cheating investors out of bill… [+2807 chars]"
-        },
-        {
-            "source": {
-                "id": "associated-press",
-                "name": "Associated Press"
-            },
-            "author": "Jonel Aleccia",
-            "title": "As legal pot grows, more kids sickened by edibles at home - The Associated Press - en Español",
-            "description": "The number of young kids, especially toddlers, who accidentally ate marijuana-laced treats rose sharply over five years as pot became legal in more places in the U.S., according to a study published Tuesday.",
-            "url": "https://apnews.com/article/marijuana-edibles-kids-risks-bf55c85be2c2720a4988e6ecedafdb95",
-            "urlToImage": "https://storage.googleapis.com/afs-prod/media/6af0681b7b1f408e9143409a7f281cba/2812.webp",
-            "publishedAt": "2023-01-03T14:44:37Z",
-            "content": "The number of young kids, especially toddlers, who accidentally ate marijuana-laced treats rose sharply over five years as pot became legal in more places in the U.S., according to a study published … [+2801 chars]"
+            "title": "\"Will Look For Job If...\": Entrepreneur's Moving Pitch In Shark Tank India - NDTV",
+            "description": "The second season of Shark Tank India is witnessing many entrepreneurs pitching their innovative business ideas to bag big investments.",
+            "url": "https://www.ndtv.com/offbeat/this-shark-tank-india-pitch-left-the-judges-and-viewers-emotional-3672307",
+            "urlToImage": "https://c.ndtvimg.com/2023-01/d5etmrbo_shark-tank-650_625x300_07_January_23.jpg",
+            "publishedAt": "2023-01-07T13:59:00Z",
+            "content": "Ganesh Balakrishnan sought an investment of Rs 75 lakh for a 3% stake in his company.\r\nNew Delhi: The second season of Shark Tank India is witnessing many entrepreneurs pitching their innovative busi… [+2785 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "CNBC"
+                "name": "Hindustan Times"
             },
-            "author": "Natasha Turak",
-            "title": "Ukraine war live updates: Russian anger over deadly Ukrainian strike; Zelenskyy says Moscow aims to 'exhaust' Ukraine with attacks - CNBC",
-            "description": "Some Russian lawmakers are demanding punishment for commanders they say put troops in danger.",
-            "url": "https://www.cnbc.com/2023/01/03/russia-ukraine-live-updates.html",
-            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107172845-16724986322022-12-31t125839z_1122326113_rc20hy9cojmr_rtrmadp_0_ukraine-crisis-strikes-kyiv.jpeg?v=1672741201&w=1920&h=1080",
-            "publishedAt": "2023-01-03T14:31:00Z",
-            "content": "Russia made a rare public acknowledgment of human loss after dozens of soldiers were killed in a Ukrainian strike on a temporary barracks in Russian-occupied Donetsk on New Year's Eve.Its admission t… [+1049 chars]"
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "The Associated Press",
-            "title": "Police say 22 injured when SUV crashes into NYC restaurant - ABC News",
-            "description": "Police say a hit-and-run driver rear-ended a sport utility vehicle and sent it crashing into a New York City restaurant, injuring 22 people",
-            "url": "https://abcnews.go.com/US/wireStory/police-22-injured-suv-crashes-nyc-restaurant-96111968",
-            "urlToImage": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-            "publishedAt": "2023-01-03T14:11:50Z",
-            "content": "NEW YORK -- A hit-and-run driver rear-ended a sport utility vehicle and sent it crashing into a New York City restaurant, injuring 22 people, police said Tuesday.\r\nThe crash happened at about 9 p.m. … [+616 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/devindra-hardawar",
-            "title": "Intel's 13th-gen laptop CPUs offer up to 24 cores - Engadget",
-            "description": "Intel is bringing the power of its 13th-gen desktop CPUs down to laptops — all 24 cores worth..",
-            "url": "https://www.engadget.com/intels-13th-gen-laptop-cpu-24-cores-140050825.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2023-01/cf805080-8ab5-11ed-8ba7-55580731085c",
-            "publishedAt": "2023-01-03T14:01:57Z",
-            "content": "Intel is bringing the power of its 13th-gen desktop CPUs down to laptops all 24 cores worth. At CES today, Intel unveiled the Core i9-13980HX, the pinnacle of its mobile lineup. It features 24 cores … [+2961 chars]"
+            "author": "Aniruddha Dhar",
+            "title": "Shankar Mishra switched off phone; Delhi cops got leads from taxi driver: Report - Hindustan Times",
+            "description": "Earlier on Saturday, Shankar Mishra was sent to 14-day judicial custody by the Delhi's Patiala House Court for the Air India urination incident. | Latest News India",
+            "url": "https://www.hindustantimes.com/india-news/shankar-mishra-switched-off-phone-delhi-cops-got-leads-from-taxi-driver-report-101673097833122.html",
+            "urlToImage": "https://images.hindustantimes.com/img/2023/01/07/1600x900/PTI01-07-2023-000092B-0_1673099483553_1673099483553_1673099499479_1673099499479.jpg",
+            "publishedAt": "2023-01-07T13:57:57Z",
+            "content": "Mumbai man Shankar Mishra, who was arrested from Bengaluru for allegedly urinating on an elderly woman in an intoxicated condition on an Air India flight, switched off his mobile phone and was using … [+2443 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "YouTube"
+                "name": "Livemint"
+            },
+            "author": "Pooja Sitaram Jaiswar",
+            "title": "Govt, LIC strategic sale in IDBI Bank to move second stage, receive multiple expression of interest | Mint - Mint",
+            "description": "Both government and LIC are looking to offload 60.72% together in the Mumbai-headquartered lender.",
+            "url": "https://www.livemint.com/companies/news/govt-lic-strategic-sale-in-idbi-bank-to-move-second-stage-receive-multiple-expression-of-interest-11673095556163.html",
+            "urlToImage": "https://images.livemint.com/img/2023/01/07/600x338/idbi-bank_1671512243775_1673097163791_1673097163791.jpg",
+            "publishedAt": "2023-01-07T13:13:40Z",
+            "content": "The Indian government and state-owned Life Insurance Corp of India (LIC) strategic stake sale in IDBI Bank is set to move to the second stage. DIPAM secretary on Saturday said the government received… [+2845 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Moneycontrol"
+            },
+            "author": "Carlsen Martin",
+            "title": "CES 2023 | LG OLED TVs unveiled alongside new Gram laptops, UltraGear gaming monitors - Moneycontrol",
+            "description": "Additionally, LG’s Signature OLED M debuts as the world’s first 4K 120Hz wireless AV-connected OLED TV.",
+            "url": "https://www.moneycontrol.com/news/technology/ces-2023-lg-oled-tvs-unveiled-alongside-new-gram-laptops-ultragear-gaming-monitors-9826181.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2023/01/CES-2023-LG-OLED-770x433.jpg",
+            "publishedAt": "2023-01-07T13:12:45Z",
+            "content": "LG announced a new line-up of TVs, notebooks, and monitors at CES 2023. The new OLED TV line-up included the LG Z3, G3, and C3 OLED Evo series. LG claims that the new TVs provide higher levels of bri… [+1733 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ANI News"
             },
             "author": null,
-            "title": "Action sports legend Ken Block dies in accident - ABC7",
-            "description": "An accident involving a snow vehicle has taken the life of pro rally driver Ken Block. He was 55. Block died in a snowmobile accident near his home in Utah.h...",
-            "url": "https://www.youtube.com/watch?v=TWAlZB_h3XQ",
-            "urlToImage": "https://i.ytimg.com/vi/TWAlZB_h3XQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDwgWihyMA8=&rs=AOn4CLBblXHj97LlUJFre8bTpOvvh1PZbw",
-            "publishedAt": "2023-01-03T14:00:19Z",
+            "title": "Study reveals how eukaryotic cells can control average fluctuations in organelle - ANI News",
+            "description": "Eukaryotic cells are highly structured objects that make up the majority of life as we know it, including all animals, plants, and fungi.",
+            "url": "https://www.aninews.in/news/science/study-reveals-how-eukaryotic-cells-can-control-average-fluctuations-in-organelle20230107182909",
+            "urlToImage": "https://aniportalimages.s3.amazonaws.com/media/details/ANI-20230107125826.jpg",
+            "publishedAt": "2023-01-07T12:59:00Z",
+            "content": "Washington [US], January 7 (ANI): Eukaryotic cells are highly structured objects that make up the majority of life as we know it, including all animals, plants, and fungi.The study was published in P… [+2305 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Indian Express"
+            },
+            "author": "Maulshree Seth",
+            "title": "As Yatra finds unlikely friends in UP, a new spring in Cong steps, but party needs more to go the distance - The Indian Express",
+            "description": "Taken off-guard by Opposition parties that fell in step in west UP and endorsement from Ram temple bodies, Congress leadership keeps it light, takes things as they come",
+            "url": "https://indianexpress.com/article/political-pulse/yatra-finds-unlikely-friends-in-up-new-spring-in-cong-steps-8367523/",
+            "urlToImage": "https://images.indianexpress.com/2023/01/Rahul-6.jpg",
+            "publishedAt": "2023-01-07T12:01:43Z",
+            "content": "In Uttar Pradesh, where the Congress is now reduced to one MP, two MLAs and less than 2 per cent vote share, the three-day Bharat Jodo Yatra through the state was a reason for cheer after a long time… [+4620 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "HT Tech",
+            "title": "Redmi Note 12 Pro Plus top 5 competitors: Google Pixel 6a, Oppo Reno 8, Nothing Phone 1, and more - HT Tech",
+            "description": "Planning to buy the newly launched Redmi Note 12 Pro Plus? Stop! Check out its top 5 competitors first-. Google Pixel 6a, Nothing Phone 1, Samsung Galaxy A53 5G, and more.",
+            "url": "https://tech.hindustantimes.com/mobile/news/redmi-note-12-pro-plus-top-5-competitors-google-pixel-6a-oppo-reno-8-nothing-phone-1-and-more-71673092217209.html",
+            "urlToImage": "https://images.hindustantimes.com/tech/img/2023/01/07/1600x900/R10_1672913016180_1673092425534_1673092425534.jpg",
+            "publishedAt": "2023-01-07T11:56:21Z",
+            "content": "Xiaomi on January 5, 2023, launched the Redmi Note 12 5G series. Out of the three devices launched, Redmi Note 12 Pro Plus is the most feature rich smartphone priced at Rs. 29999 for the base variant… [+2340 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "Aniruddha Dhar",
+            "title": "Who is Avani Chaturvedi — 1st IAF woman pilot to be part of wargames abroad - Hindustan Times",
+            "description": "The exercise Veer Guardian 2023 will be carried out from January 16 to January 26 at the Hyakuri Air Base and its surrounding airspace in Omitama, and the Iruma Air Base in Sayama in Japan. | Latest News India",
+            "url": "https://www.hindustantimes.com/india-news/who-is-avani-chaturvedi-1st-iaf-woman-pilot-to-be-part-of-wargames-abroad-101673082809309.html",
+            "urlToImage": "https://images.hindustantimes.com/img/2023/01/07/1600x900/_aba40318-213e-11e8-8baa-23f2d497fa41_1673091424193_1673091424193.jpg",
+            "publishedAt": "2023-01-07T11:41:44Z",
+            "content": "For the first time, an Indian Air Force woman fighter pilot, squadron leader Avani Chaturvedi, will be part of the Indian contingent for the aerial war games to be held outside the country.\r\nThe exer… [+1427 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Weather Channel"
+            },
+            "author": "The Weather Channel",
+            "title": "Residents Panic As Cracks Develop in Houses at Uttarakhand's Joshimath | Weather.com - The Weather Channel",
+            "description": "Due to soil shifting, many houses have reached the verge of collapse, while a temple collapsed on Friday, January 6.",
+            "url": "https://weather.com/en-IN/india/news/news/2023-01-07-uttarakhands-joshimath-houses-develop-cracks-residents-panic",
+            "urlToImage": "https://s.w-x.co/in-cracks_joshimath.jpg",
+            "publishedAt": "2023-01-07T11:26:51Z",
+            "content": "Panic heightened among the residents of Uttarakhand's Joshimath as cracks developed in hundreds of houses and other structures due to the soil shifting in the holy town.\r\nMany houses have reached the… [+2540 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "India Today"
+            },
+            "author": "India Today Web Desk",
+            "title": "BCCI announces new selection committee for senior men's team, Chetan Sharma to continue as chairman - India Today",
+            "description": "Chetan Sharma, Shiv Sundar Das, Subroto Banerjee, Salil Ankola, and Sridharan Sharath were recommended for the Senior Men's National Selection Committee by the Cricket Advisory Committee (CAC) on Saturday.",
+            "url": "https://www.indiatoday.in/sports/cricket/story/bcci-announces-new-selection-committee-for-senior-mens-team-chetan-sharma-to-continue-as-chairman-2318605-2023-01-07",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202301/chetan_sharma-sixteen_nine.jpeg?VersionId=ZbT7H3lLKqXSPpy02s9Dl21oudQA.4Wh",
+            "publishedAt": "2023-01-07T11:26:15Z",
+            "content": "By India Today Web Desk: The Board of Control for Cricket in India (BCCI) reappointed Chetan Sharma as chairman of selectors on Saturday, and also announced four names for the Senior Men's National S… [+1562 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Prince Harry Reveals His Final Words To Queen Elizabeth Before She Died. They Were... - NDTV",
+            "description": "Prince Harry recalls whispering to Queen Elizabeth that he \"hoped she was happy\" and would be reunited with her late husband, Prince Philip, who passed away in April 2021.",
+            "url": "https://www.ndtv.com/feature/prince-harry-reveals-his-final-words-to-queen-elizabeth-before-she-died-they-were-3671984",
+            "urlToImage": "https://c.ndtvimg.com/2022-09/qltf8beo_queen-elizabeth-ii-_625x300_09_September_22.jpg",
+            "publishedAt": "2023-01-07T11:26:00Z",
+            "content": "Many info about the Royal Family is revealed in Prince Harry's memoir.\r\nPrince Harry, who is already facing backlash from every direction due to the leaked excerpts of his memoir \"Spare,\" has reveale… [+2221 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Tribune India"
+            },
+            "author": "The Tribune India",
+            "title": "Punjab leg of Rahul Gandhi's Bharat Jodo Yatra, here is the route - The Tribune India",
+            "description": "The Punjab Pardesh Congress Committee (PPCC) on Saturday released the itinerary of the 9-day Punjab leg of the Yatra.",
+            "url": "https://www.tribuneindia.com/news/punjab/punjab-leg-of-rahul-gandhis-bharat-jodo-yatra-here-is-the-route-468270",
+            "urlToImage": "https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/1/2023_1$largeimg_1700045998.jpg",
+            "publishedAt": "2023-01-07T11:17:00Z",
+            "content": "Tribune News Service\r\nChandigarh, January 7\r\nThe Punjab Pardesh Congress Committee (PPCC) on Saturday released the itinerary of the 9-day Punjab leg of the Yatra.\r\nState Congress chief Amarinder Sing… [+931 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ThePrint"
+            },
+            "author": "ANI",
+            "title": "Study: Protein important in development of Alzheimer’s disease for normal learning processes - ThePrint",
+            "description": "Washington [US], January 7 (ANI): New research has revealed that the tau protein, which is important in the development of Alzheimer’s disease, is also involved in normal learning processes in the healthy brain, potentially providing a target for future drug …",
+            "url": "https://theprint.in/health/study-protein-important-in-development-of-alzheimers-disease-for-normal-learning-processes/1303237/",
+            "urlToImage": null,
+            "publishedAt": "2023-01-07T11:14:35Z",
+            "content": "Washington [US], January 7 (ANI): New research has revealed that the tau protein, which is important in the development of Alzheimer’s disease, is also involved in normal learning processes in the he… [+3556 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Cancer vaccine breakthrough: Scientists turn tumor cells into cancer killers | TheHealthSite.com - TheHealthSite",
+            "description": null,
+            "url": "https://news.google.com/__i/rss/rd/articles/CBMilQFodHRwczovL3d3dy50aGVoZWFsdGhzaXRlLmNvbS9kaXNlYXNlcy1jb25kaXRpb25zL2NhbmNlci9maW5hbGx5LXdlLWhhdmUtYS1jYW5jZXItdmFjY2luZS10aGF0LWNhbi1raWxsLXR1bW9yLWNlbGxzLXByZXZlbnQtY2FuY2VyLXJlY3VycmVuY2UtOTQxNjQzL9IBmQFodHRwczovL3d3dy50aGVoZWFsdGhzaXRlLmNvbS9kaXNlYXNlcy1jb25kaXRpb25zL2NhbmNlci9maW5hbGx5LXdlLWhhdmUtYS1jYW5jZXItdmFjY2luZS10aGF0LWNhbi1raWxsLXR1bW9yLWNlbGxzLXByZXZlbnQtY2FuY2VyLXJlY3VycmVuY2UtOTQxNjQzL2FtcC8?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-01-07T10:26:00Z",
             "content": null
         }
     ]
