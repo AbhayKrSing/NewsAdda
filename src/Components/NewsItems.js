@@ -5,8 +5,8 @@ export class NewsItems extends Component {
     render() {
         let {title,description,imageUrl,NewsUrl}=this.props
         return (
-            <div className='d-flex justify-content-center m-3'>
-                <div className="card" style={{width: '18rem' ,height:'60vh'}}>
+            <div className=''>
+                <div className="card" >
                     <img  src={imageUrl} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">{title}</h5>

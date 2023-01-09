@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import NewsItems from './NewsItems'
 import Spinner from './Spinner';
+import PropTypes from 'prop-types';
 export class News extends Component {
 
   article = []
-
-
   constructor() {
     console.log('hello i m constructor of New.js')
     super();
@@ -20,7 +19,7 @@ export class News extends Component {
 
   componentDidMount = async () => {   //componentDidMount() is a fn start after everything on app uploaded
     this.setState({loading:true})
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page}&pageSize=${this.props.pagesize}`)
+    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
     let data = await response.json()
     //  this.setState({articles:data.article})
     this.setState({ articles: data.articles, TotalResult: data.totalResults }) //data.articles is array see sample  output
@@ -28,7 +27,7 @@ export class News extends Component {
   }
   handleprevious = async () => {
     this.setState({loading:true})
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page - 1}&pageSize=${this.props.pagesize}`)
+    let response = await fetch(`https://newsapi.org/v2/top-headlines?country${this.props.country}&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page - 1}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
     let data = await response.json()
     this.setState({ articles: data.articles, page: this.state.page - 1 })
     this.setState({loading:false})
@@ -38,11 +37,12 @@ export class News extends Component {
 
     // }
     this.setState({loading:true})
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=in&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page + 1}&pageSize=${this.props.pagesize}`)
+    let response = await fetch(`https://newsapi.org/v2/top-headlines?country${this.props.country}&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page + 1}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
     let data = await response.json()
     this.setState({ articles: data.articles, page: this.state.page + 1 })
     this.setState({loading:false})
   }
+
   render() {
     return (<>
       {this.state.loading && <Spinner />}
@@ -50,7 +50,7 @@ export class News extends Component {
         <h1 className='text-center my-5'>News-Adda</h1>
         <div className="row">
           {this.state.articles.map((element) => {             //this.article.map((element)  is also fine but this.state.articles.map((element) is used because we need to change all the things which only done through state
-            return <div className='col' key={element.url}><NewsItems title={element.title ? element.title.slice(0, 72) + '.....' : 'checkout....'} description={element.description ? element.description.slice(0, 76) + '...' : element.title} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} /></div>
+            return <div className='col-12 col-sm-4' key={element.url}><NewsItems title={element.title ? element.title.slice(0, 72) + '.....' : 'checkout....'} description={element.description ? element.description.slice(0, 76) + '...' : element.title} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} /></div>
           })}
         </div>
       
@@ -62,6 +62,18 @@ export class News extends Component {
     </>
     )
   }
+
 }
+News.propTypes = {
+  pagesize: PropTypes.number,
+  country: PropTypes.string,
+  category:PropTypes.string
+};
+News.defaultProps = {
+  pagesize: 10,
+  country: 'in',
+  category:'general'
+};
+
 
 export default News
