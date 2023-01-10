@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import NewsItems from './NewsItems'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types';
+
+
 export class News extends Component {
 
   article = []
