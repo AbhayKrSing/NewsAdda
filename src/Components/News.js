@@ -52,7 +52,7 @@ export class News extends Component {
         <h1 className='text-center my-5'>News-Adda</h1>
         <div className="row">
           {this.state.articles.map((element) => {             //this.article.map((element)  is also fine but this.state.articles.map((element) is used because we need to change all the things which only done through state
-            return <div className='col-12 col-sm-4' key={element.url}><NewsItems title={element.title ? element.title.slice(0, 72) + '.....' : 'checkout....'} description={element.description ? element.description.slice(0, 76) + '...' : element.title} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} /></div>
+            return <div className='col-12 col-sm-4' key={element.url}><NewsItems title={element.title } description={element.description} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} /></div>
           })}
         </div>
       
