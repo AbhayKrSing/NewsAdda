@@ -7,9 +7,9 @@ export class NewsItems extends Component {
         return (
             <div className='m-3'>
                 <div className="card" style={{ height: '95vh' }}>
-                    <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
+                    <span className="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
                         {source}
-                        <span class="visually-hidden">unread messages</span>
+                        <span className="visually-hidden">unread messages</span>
                     </span>
                     <img src={imageUrl} className="card-img-top" alt="img" style={{ height: '35vh' }} />
                     <div className="card-body d-flex flex-column justify-content-between">
