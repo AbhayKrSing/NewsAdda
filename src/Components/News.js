@@ -34,7 +34,7 @@ export class News extends Component {
 
     this.setState({ loading: true })
     this.props.progress(10)
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=9e5f03f9a21d4dbcbf5300166ca5a59c&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
+    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=${this.props.apikeys}&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
     let data = await response.json()
     this.props.progress(70)
     this.setState({ articles: data.articles, TotalResult: data.totalResults, loading: false, page: 1+this.state.page })
@@ -46,7 +46,7 @@ export class News extends Component {
 
   fetchMoreData = async () => {
     this.props.progress(10)
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=9e5f03f9a21d4dbcbf5300166ca5a59c&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
+    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=${this.props.apikeys}&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
     let data = await response.json()
     this.props.progress(70)
     this.setState({ articles: this.state.articles.concat(data.articles), TotalResult: data.totalResults, loading: false, page: 1+this.state.page })
