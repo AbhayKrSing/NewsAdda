@@ -32,11 +32,11 @@ export class News extends Component {
   }
 
   fetchMoreData = async (e) => {
+    this.setState({ page: this.state.page + 1 })
     let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=0d22f87577de4cf0b52741caf0309aaf&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
     let data = await response.json()
     this.setState({ articles: data.articles.concat(this.state.articles), TotalResult: data.totalResults, loading: false })
-    this.setState({ page: this.state.page + 1 })
-    
+     
   }
 
   render() {
