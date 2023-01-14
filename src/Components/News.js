@@ -26,7 +26,7 @@ const News = (props) => {
       props.progress(100)
    
     })();
-    <em>//eslint-disable-next-line react-hooks/exhaustive-deps</em>
+  // eslint-disable-next-line
   }, []);
 
 
@@ -48,7 +48,7 @@ const News = (props) => {
   return (<>
 
     {!loading && <div className='container'>
-      <h1 className='text-center my-4'>News-Adda</h1>
+      <h1 className='text-center' style={{margin:"90px 0 30px 0"}}>News-Adda</h1>
       <div className="row">
         <InfiniteScroll
           className='row overflow-hidden'  /* see dom in developer tool to understand this */
