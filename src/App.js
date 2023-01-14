@@ -4,7 +4,6 @@ import News  from './Components/News'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LoadingBar from 'react-top-loading-bar'
  const App =()=> {
-  // const [progress,setProgress] = useState(0);
 let apikeys =process.env.REACT_APP_API_KEYS1
  const [progress, setprogress] = useState(0)
   const setProgress=(value)=>{
