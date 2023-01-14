@@ -1,72 +1,74 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 import NewsItems from './NewsItems'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types';
 import InfiniteScroll from 'react-infinite-scroll-component';
+// document.title = `${props.category.charAt(0).toUpperCase() + props.category.slice(1)} News-Adda `
+const News = (props) => {
+  const [articles, setarticles] = useState([])
+  const [loading, setloading] = useState(false)
+  const [page, setpage] = useState(1)
+  const [TotalResult, setTotalResult] = useState(0)
+  let number = 1
+  //componentDidMount() is a fn start after everything on app uploaded
 
-export class News extends Component {
+  useEffect(() => {
+    (async () => {
+      setloading(true)
+      props.progress(10)
+      let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${props.country}&apiKey=${props.apikeys}&page=${page}&pageSize=${props.pagesize}&category=${props.category}`)
+      let data = await response.json()
+      props.progress(70)
+      setarticles(data.articles)
+      setTotalResult(data.totalResults)
+      setloading(false)
+      setpage(page + 1)
+      props.progress(100)
+   
+    })();
+    <em>//eslint-disable-next-line react-hooks/exhaustive-deps</em>
+  }, []);
 
-  number = 1
-  constructor(props) {      //this is way to pass props in constructor
-    console.log('hello i m constructor of New.js')
-    super();
-    this.state = {
-      articles: [],  //state variable
-      loading: false,
-      page: 1,
-      TotalResult: 0
-    }
-    document.title = `${props.category.charAt(0).toUpperCase() + props.category.slice(1)} News-Adda `
-  }
 
 
-  componentDidMount = async () => {   //componentDidMount() is a fn start after everything on app uploaded
 
-    this.setState({ loading: true })
-    this.props.progress(10)
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=${this.props.apikeys}&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
+  const fetchMoreData = async () => {
+    props.progress(10)
+    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${props.country}&apiKey=${props.apikeys}&page=${page}&pageSize=${props.pagesize}&category=${props.category}`)
     let data = await response.json()
-    this.props.progress(70)
-    this.setState({ articles: data.articles, TotalResult: data.totalResults, loading: false, page: 1+this.state.page })
-    this.props.progress(100)
-
+    props.progress(70)
+    setarticles(articles.concat(data.articles))
+    setTotalResult(data.totalResults)
+    setloading(false)
+    setpage(page + 1)
+    props.progress(100)
   }
 
-  fetchMoreData = async () => {
-    this.props.progress(10)
-    let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=${this.props.apikeys}&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
-    let data = await response.json()
-    this.props.progress(70)
-    this.setState({ articles: this.state.articles.concat(data.articles), TotalResult: data.totalResults, loading: false, page: 1+this.state.page })
-    this.props.progress(100)
 
-  }
+  return (<>
 
-  render() {
-    return (<>
-
-      {!this.state.loading && <div className='container'>
-        <h1 className='text-center my-4'>News-Adda</h1>
-        <div className="row">
-          <InfiniteScroll
-            className='row overflow-hidden'  /* see dom in developer tool to understand this */
-            dataLength={this.state.articles.length}
-            next={this.fetchMoreData}
-            hasMore={this.state.articles.length <= this.state.TotalResult}
-            loader={<Spinner /> && this.state.articles.length <= this.state.TotalResult}
-          >
-            {this.state.articles.map((element) => {             //this.article.map((element)  is also fine but this.state.articles.map((element) is used because we need to change all the things which only done through state
-              return <div className='col-12 col-sm-4 col-md-12 col-lg-4' key={element.url + this.number++}><NewsItems title={element.title} description={element.description} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} Author={element.author} time={element.publishedAt} source={element.source.name} /></div>
-            })}
-          </InfiniteScroll>
-        </div>
+    {!loading && <div className='container'>
+      <h1 className='text-center my-4'>News-Adda</h1>
+      <div className="row">
+        <InfiniteScroll
+          className='row overflow-hidden'  /* see dom in developer tool to understand this */
+          dataLength={articles.length}
+          next={fetchMoreData}
+          hasMore={articles.length <= TotalResult}
+          loader={<Spinner /> && articles.length <= TotalResult}
+        >
+          {articles.map((element) => {             //article.map((element)  is also fine but articles.map((element) is used because we need to change all the things which only done through state
+            return <div className='col-12 col-sm-4 col-md-12 col-lg-4' key={element.url + number++}><NewsItems title={element.title} description={element.description} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} Author={element.author} time={element.publishedAt} source={element.source.name} /></div>
+          })}
+        </InfiniteScroll>
+      </div>
 
 
-      </div>}
-      {this.state.loading && <Spinner />}
-    </>
-    )
-  }
+    </div>}
+    {loading && <Spinner />}
+  </>
+  )
+
 
 }
 News.propTypes = {
