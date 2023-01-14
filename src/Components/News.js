@@ -9,7 +9,7 @@ const News = (props) => {
   const [loading, setloading] = useState(false)
   const [page, setpage] = useState(1)
   const [TotalResult, setTotalResult] = useState(0)
-  let number = 1
+
   //componentDidMount() is a fn start after everything on app uploaded
 
   useEffect(() => {
@@ -58,7 +58,7 @@ const News = (props) => {
           loader={<Spinner /> && articles.length <= TotalResult}
         >
           {articles.map((element) => {             //article.map((element)  is also fine but articles.map((element) is used because we need to change all the things which only done through state
-            return <div className='col-12 col-sm-4 col-md-12 col-lg-4' key={element.url + number++}><NewsItems title={element.title} description={element.description} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} Author={element.author} time={element.publishedAt} source={element.source.name} /></div>
+            return <div className='col-12 col-sm-4 col-md-12 col-lg-4' key={element.url}><NewsItems title={element.title} description={element.description} imageUrl={!element.urlToImage ? 'https://media.istockphoto.com/id/1311148884/vector/abstract-globe-background.jpg?s=612x612&w=0&k=20&c=9rVQfrUGNtR5Q0ygmuQ9jviVUfrnYHUHcfiwaH5-WFE=' : element.urlToImage} NewsUrl={element.url} Author={element.author} time={element.publishedAt} source={element.source.name} /></div>
           })}
         </InfiniteScroll>
       </div>
