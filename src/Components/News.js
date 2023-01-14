@@ -11,24 +11,14 @@ export class News extends Component {
     console.log('hello i m constructor of New.js')
     super();
     this.state = {
-      articles: [],  //kind of state variable
+      articles: [],  //state variable
       loading: false,
       page: 1,
       TotalResult: 0
     }
     document.title = `${props.category.charAt(0).toUpperCase() + props.category.slice(1)} News-Adda `
   }
-  // Update = async () => {
-  //   this.props.progress(10)
-  //   let response = await fetch(`https://newsapi.org/v2/top-headlines?country=${this.props.country}&apiKey=9e5f03f9a21d4dbcbf5300166ca5a59c&page=${this.state.page}&pageSize=${this.props.pagesize}&category=${this.props.category}`)
-  //   let data = await response.json()
-  //   this.props.progress(70)
-  //   this.setState({ articles: data.articles.concat(this.state.articles), TotalResult: data.totalResults, loading: false })
-  //   //data.articles is array see sample  output
-  //   // document.title=`News-Adda ${this.props.category.charAt(0).toUpperCase()+this.props.category.slice(1)}`
-  //   this.props.progress(100)
 
-  // } //dikkat aarhi hai update fn ka use krne mey.
 
   componentDidMount = async () => {   //componentDidMount() is a fn start after everything on app uploaded
 
@@ -38,8 +28,6 @@ export class News extends Component {
     let data = await response.json()
     this.props.progress(70)
     this.setState({ articles: data.articles, TotalResult: data.totalResults, loading: false, page: 1+this.state.page })
-    //data.articles is array see sample  output
-    // document.title=`News-Adda ${this.props.category.charAt(0).toUpperCase()+this.props.category.slice(1)}`
     this.props.progress(100)
 
   }
@@ -50,8 +38,6 @@ export class News extends Component {
     let data = await response.json()
     this.props.progress(70)
     this.setState({ articles: this.state.articles.concat(data.articles), TotalResult: data.totalResults, loading: false, page: 1+this.state.page })
-    //data.articles is array see sample  output
-    // document.title=`News-Adda ${this.props.category.charAt(0).toUpperCase()+this.props.category.slice(1)}`
     this.props.progress(100)
 
   }
