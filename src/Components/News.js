@@ -24,9 +24,9 @@ const News = (props) => {
       setloading(false)
       setpage(page + 1)
       props.progress(100)
-   
+      document.title = `${props.category.charAt(0).toUpperCase() + props.category.slice(1)} News-Adda `
     })();
-  // eslint-disable-next-line
+    // eslint-disable-next-line
   }, []);
 
 
@@ -48,7 +48,7 @@ const News = (props) => {
   return (<>
 
     {!loading && <div className='container'>
-      <h1 className='text-center' style={{margin:"90px 0 30px 0"}}>News-Adda</h1>
+      <h1 className='text-center' style={{ margin: "90px 0 30px 0" }}>News-Adda</h1>
       <div className="row">
         <InfiniteScroll
           className='row overflow-hidden'  /* see dom in developer tool to understand this */
